@@ -1,14 +1,12 @@
 import logo from '../Components/Img/Gamingstar.png';
-import React from 'react';
 import CartWidget from './CartWidget';
-import ItemListContainer from './ItemListContainer';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-blue">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src={logo} alt="Logo" width="100" height="100" className="d-inline-block align-top" />
+          <img src={logo} alt="Logo" width="110" height="110" className="d-inline-block align-top" />
         </a>
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav">
@@ -30,9 +28,6 @@ const NavBar = () => {
           </ul>
         </div>
         <CartWidget />
-        <ItemListContainer props="¡Bienvenido a nuestra tienda en línea!" />
-      </div>
-      <div> 
       </div>
     </nav>
   );

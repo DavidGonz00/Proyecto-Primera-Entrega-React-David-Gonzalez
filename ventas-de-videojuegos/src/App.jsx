@@ -8,8 +8,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      {/* Agrega otros componentes aquí si es necesario */}
-
+      <ItemListContainer props="¡Bienvenidos a nuestra tienda proximamente abriremos!" />
     </div>
   );
 }
